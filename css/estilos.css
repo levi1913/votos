@@ -39,6 +39,11 @@ header .principal .espacio:hover {
   color: black;
 }
 
+@media (max-width: 500) {
+  .principal span {
+    font-size: 70px;
+  }
+}
 #sigueme {
   width: 115px;
   height: 115px;
