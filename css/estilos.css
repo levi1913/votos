@@ -39,9 +39,20 @@ header .principal .espacio:hover {
   color: black;
 }
 
-@media (max-width: 500) {
+@media (min-width: 500) {
+  .principal {
+    top: 35%;
+  }
   .principal span {
     font-size: 70px;
+  }
+}
+@media (min-width: 400) {
+  .principal {
+    top: 35%;
+  }
+  .principal span {
+    font-size: 50px;
   }
 }
 #sigueme {
