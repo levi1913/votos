@@ -42,20 +42,20 @@ header{
     }
     
 }
-@media(min-width:500){
+@media(max-width:500px){
    .principal{
-        top: 35%;
+        top: 35%  !important;
     
        span{
-        font-size: 70px;
+        font-size: 70px !important;
        }
    }
 }
-@media(min-width:400){
+@media(max-width:400px){
     .principal{
-        top: 35%;
+        top: 35% !important;
         span{
-         font-size: 50px;
+         font-size: 50px !important;
         }
     }
  }
